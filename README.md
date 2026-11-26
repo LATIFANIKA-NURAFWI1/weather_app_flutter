@@ -9,8 +9,6 @@ Proyek ini dikembangkan untuk memenuhi tugas Responsi Pemrograman Mobile, Progra
 
 - Mata Kuliah: Pemrograman Mobile
 - Program Studi: S1 Informatika, Universitas Jenderal Soedirman
-- Batas Pengerjaan: 26 November 2026, Pukul 10.00 WIB
-- Tautan Pengumpulan: https://forms.gle/vz5LUDPVZmJ2F5uKA
 - Tautan Video Penjelasan: https://youtu.be/2x8j4a--fZw
 
 ---
@@ -26,7 +24,7 @@ Berikut adalah dokumentasi visual dari antarmuka aplikasi yang telah diimplement
 
 ---
 
-## Ringkasan Eksekutif
+## Ringkasan
 
 Aplikasi Cuaca Kita merupakan aplikasi prakiraan cuaca berbasis mobile yang dikembangkan menggunakan framework Flutter versi 3.47 dan bahasa pemrograman Dart versi 3.13 dengan fitur null-safety. Seluruh data cuaca dan koordinat geografis diambil secara langsung dari REST API Open-Meteo tanpa menggunakan data statis maupun data tiruan.
 
@@ -36,7 +34,7 @@ Arsitektur perangkat lunak yang diterapkan adalah Model-View-ViewModel (MVVM) ya
 
 ## Fitur Aplikasi
 
-1. Pemantauan Cuaca Terkini: Menampilkan data cuaca terkini lokasi tempat tinggal pengguna di Kalimanah Kulon, Kabupaten Purbalingga, Provinsi Jawa Tengah, secara real-time.
+1. Pemantauan Cuaca Terkini: Menampilkan data cuaca terkini lokasi tempat tinggal pengguna, secara real-time.
 2. Sembilan Parameter Cuaca Wajib: Menampilkan suhu terkini, suhu yang dirasakan (apparent temperature), kelembapan udara, curah hujan, kecepatan angin, kode kondisi cuaca WMO beserta deskripsi Bahasa Indonesia dan ikon, peluang hujan hari ini, serta suhu maksimum dan minimum harian.
 3. Prakiraan Cuaca Tujuh Hari: Menampilkan data prakiraan cuaca selama 7 hari ke depan dengan penanda khusus pada hari ini.
 4. Pencarian Kota dengan Debounce: Menyediakan fitur pencarian lokasi global dengan jeda waktu debounce 500 milidetik guna mengoptimalkan efisiensi request jaringan.
@@ -299,5 +297,3 @@ Berikut adalah langkah-langkah untuk menjalankan proyek ini pada lingkungan peng
    ```
 
 ---
-
-Demikian dokumentasi proyek aplikasi Cuaca Kita ini disusun secara lengkap dan objektif untuk memenuhi kriteria evaluasi tugas Responsi Pemrograman Mobile, Program Studi S1 Informatika, Universitas Jenderal Soedirman.
